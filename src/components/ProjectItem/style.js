@@ -35,9 +35,10 @@ export const Content = styled.div`
   @media ( min-width: 720px ) {
     border-radius: 10px;
     box-shadow: 0 0 10px 0.2px gray;
+    box-sizing: border-box;
     flex-direction: column;
-    margin-left: 10px;
-    max-width: 200px;
+    margin: 5px;
+    width: 19%;
 
     img {
       border-radius: 10px;

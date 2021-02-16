@@ -1,8 +1,8 @@
-import React from 'react';
-import { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import React, {useEffect}from 'react';
+import {useParams} from 'react-router-dom';
 import {useDispatch, useSelector} from 'react-redux';
 import {getProjects} from '../../store/projects/action';
+import Loading from '../Loading';
 
 import {
   Container,
@@ -10,8 +10,8 @@ import {
 } from './style';
 
 function ProjectItem() {
-  const { course } = useParams();
-  const { data, isFetching } = useSelector(state => state.projects);
+  const {course} = useParams();
+  const {data, isFetching} = useSelector(state => state.projects);
   const dispatch = useDispatch();
 
   const dispatchProjectsToState = () => {
@@ -25,7 +25,7 @@ function ProjectItem() {
   const projectsCourse = data.filter((project) => project.courseName === course) || [];
 
   if (isFetching) {
-    return <h1>Carregando...</h1>;
+    return <Loading />;
   }
 
   if (!projectsCourse.length) {

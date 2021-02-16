@@ -13,9 +13,11 @@ export const Container = styled.nav`
   z-index: 10;
   
   @media ( min-width: 720px ) {
+    align-items: center;
     background-color: initial;
     border-top: none;
-    display: inline;
+    display: flex;
+    justify-content: space-between;
     left: initial;
     position: initial;
     top: initial;
@@ -52,3 +54,16 @@ export const Menus = styled.div`
     }
   }
 `
+
+export const Contador = styled.div`
+  align-items: center;
+  color: whitesmoke;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  a {
+    img {
+      height: 20px;
+    }
+  }
+`;
