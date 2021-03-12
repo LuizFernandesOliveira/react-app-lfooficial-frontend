@@ -32,6 +32,11 @@ export const projects = [
         projectLink: 'https://js-app-trybe-shopping-cart.netlify.app/',
         projectImage: 'https://camo.githubusercontent.com/602a8126c50cb295e36183dcc4519623daef299c952c9e201903f0ce7d75d892/68747470733a2f2f6a732d6170702d74727962652d73686f7070696e672d636172742e6e65746c6966792e6170702f696d67732f73637265656e73686f742f30315f73686f742e706e67',
       },
+      {
+        projectName: 'Online Store',
+        projectLink: 'https://react-app-trybe-online-store.netlify.app/',
+        projectImage: 'https://raw.githubusercontent.com/LuizFernandesOliveira/react-app-trybe-online-store/main/src/assets/images/screenshot/01_shot.png',
+      },
     ],
   },
   {
