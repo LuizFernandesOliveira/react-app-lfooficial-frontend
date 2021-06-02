@@ -1,7 +1,7 @@
 export const user = {
   name: "Luiz Fernandes de Oliveira",
   photo: "perfil.jpg",
-  resume: "Olá, seja bem vindo ao meu portfólio. Ahh e..., pode me chamar de Nando. Sou uma pessoa que gosta muito de tecnologias. E, destaco que tenho um interesse peculiar principalmente na área de desenvolvimento web com enfoque em back-end. Me considero uma pessoa criativa e visionária, tendo como base alguns projetos pessoais que venho trabalhando. Dentre eles, destaco o One Week Backend Projects, veja o link no menú e saiba mais. ",
+  resume: "Olá, seja bem vindo ao meu portfólio. Ahh e..., pode me chamar de Nando. Sou uma pessoa que gosta muito de tecnologias. E, destaco que tenho um interesse peculiar principalmente na área de desenvolvimento web com enfoque em back-end. Me considero uma pessoa criativa e visionária, tendo como base alguns projetos pessoais que venho trabalhando. Dentre eles, destaco o Learning Practical Projects (LPP), veja o link no menú e saiba mais. ",
   biography: "Eu moro numa cidade do litoral sul do rio grande do norte chamada Canguaretama. Sou estudante de Tecnologia em Sistemas para Internet do IFRN/Campus Canguaretama; estudante de desenvolvimento de software na Trybe e, estudante de Segurança da Informação no Técnicas de Invasão. ",
 };
 
